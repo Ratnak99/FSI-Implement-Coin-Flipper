@@ -50,7 +50,7 @@ else{
    let clearButton = document.querySelector('#clear')
    console.log(clearButton)
    clearButton.addEventListener('click',function(){
-       console.log('clear is clicked')})
+       console.log('clear is clicked')
     
 headsCount = 0
 tailsCount = 0
@@ -59,7 +59,7 @@ headsTd.textContent = headsCount
 tailsTd.textContent = tailsCount
 headsPercentTd.textContent = '0%'
 tailsPercentTd.textContent = '0%'
-
+})
     // Flip Button Click Handler
         // TODO: Determine flip outcome 
         // TODO: Update image and status message in the DOM
